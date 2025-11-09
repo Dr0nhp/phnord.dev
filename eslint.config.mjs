@@ -1,16 +1,42 @@
 import js from "@eslint/js";
 import globals from "globals";
-import tseslint from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
-import markdown from "@eslint/markdown";
-import css from "@eslint/css";
-import { defineConfig } from "eslint/config";
 
-export default defineConfig([
-  { files: ["**/*.{js,mjs,cjs,ts,mts,cts,vue}"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: globals.browser } },
-  tseslint.configs.recommended,
-  pluginVue.configs["flat/essential"],
-  { files: ["**/*.vue"], languageOptions: { parserOptions: { parser: tseslint.parser } } },
-  { files: ["**/*.md"], plugins: { markdown }, language: "markdown/gfm", extends: ["markdown/recommended"] },
-  { files: ["**/*.css"], plugins: { css }, language: "css/css", extends: ["css/recommended"] },
-]);
+export default [
+    // JavaScript-Dateien
+    {
+        files: ["**/*.{js,mjs}"],
+        languageOptions: {
+            ecmaVersion: "latest",
+            sourceType: "module",
+            globals: {
+                ...globals.browser,
+                ...globals.node
+            }
+        },
+        rules: {
+            ...js.configs.recommended.rules
+        }
+    },
+    // Vue-Dateien
+    ...pluginVue.configs["flat/recommended"],
+    {
+        files: ["**/*.vue"],
+        languageOptions: {
+            ecmaVersion: "latest",
+            sourceType: "module",
+            globals: {
+                ...globals.browser
+            }
+        }
+    },
+    // Ignorieren
+    {
+        ignores: [
+            "node_modules/**",
+            "dist/**",
+            "build/**",
+            "**/*.min.js"
+        ]
+    }
+];
