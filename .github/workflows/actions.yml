@@ -71,7 +71,7 @@ jobs:
           name: dist
           path: dist/
 
-      - name: SFTP Deploy
+      - name: SFTP DeployK
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.STRATO_HOST }}
@@ -81,4 +81,3 @@ jobs:
           remote_path: 'phnord.dev/'
           sftpArgs: '-o ConnectTimeout=5'
           sftp_only: true
-          delete_remote_files: true

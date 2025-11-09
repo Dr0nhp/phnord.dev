@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>Hello World</h1>
-    <p>Dies kommt aus App.vue 🎉</p>
+    <h1>X</h1>
+    <p>Deployment Test</p>
   </div>
 </template>
