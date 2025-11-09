@@ -1,0 +1,15 @@
+@use '../abstract/bundle' as *;
+
+header {
+  @include flex-center;
+  background-color: $header-background;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  border-radius: 0.25rem;
+
+  ul {
+    @include flex-center;
+    list-style: none;
+    gap: 1rem;
+  }
+}

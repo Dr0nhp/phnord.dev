@@ -23,5 +23,8 @@
     "preview": "vite preview",
     "lint": "eslint . && stylelint '**/*.{css,scss,vue}'",
     "lint:fix": "eslint . --fix && stylelint '**/*.{css,scss,vue}' --fix"
+  },
+  "dependencies": {
+    "vue-router": "^4.6.3"
   }
 }
