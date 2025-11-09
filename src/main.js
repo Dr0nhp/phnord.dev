@@ -1,7 +1,5 @@
-// Aktuell nur CSS importieren
-import './main.css';
+import './style.scss'
+import { createApp } from 'vue'
+import App from './App.vue'
 
-// Später für Vue:
-// import { createApp } from 'vue'
-// import App from './App.vue'
-// createApp(App).mount('#app')
+createApp(App).mount('#app')

@@ -81,3 +81,4 @@ jobs:
           remote_path: 'phnord.dev/'
           sftpArgs: '-o ConnectTimeout=5'
           sftp_only: true
+          delete_remote_files: true
