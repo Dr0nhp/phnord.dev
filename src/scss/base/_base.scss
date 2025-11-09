@@ -1,0 +1,14 @@
+@use '../abstract/bundle' as *;
+
+html {
+  font-size: 100%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-color: $body-background-color;
+}
+
+.page-content-wrapper {
+  margin: 1rem;
+}
