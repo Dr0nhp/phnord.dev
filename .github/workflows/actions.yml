@@ -75,8 +75,8 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.STRATO_HOST }}
-          username: ${{ secrets.STRATO_USERNAME }}
-          ssh_private_key: ${{ secrets.STRATO_PASSWORD }}
+          username: ${{ vars.STRATO_USERNAME }}
+          password: ${{ secrets.STRATO_PASSWORD }}
           local_path: 'dist/'
-          remote_path: '/public_html/deploy/phnord.dev/'
+          remote_path: 'phnord.dev/'
           sftpArgs: '-o ConnectTimeout=5'
