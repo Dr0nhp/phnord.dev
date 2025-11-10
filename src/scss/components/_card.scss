@@ -8,8 +8,24 @@
   background-color: $lavender-blush;
   border-radius: 0.5rem;
   padding: 1rem;
+  margin: auto;
 
   h2, p {
     color: $smoky-black;
+  }
+}
+
+.card__title {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 25%;
+    height: 3px;
+    background-color: $smoky-black;
+    border-radius: 2px;
   }
 }
