@@ -1,0 +1,14 @@
+@use '../abstract/bundle' as *;
+
+.highlighed {
+  color: $color-highlight;
+}
+
+.interactive {
+  cursor: pointer;
+  color: $color-interaction;
+
+  &:hover {
+    color: $color-highlight;
+  }
+}

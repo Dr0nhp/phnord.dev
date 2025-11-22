@@ -1,0 +1,54 @@
+@use '../abstract/bundle' as *;
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+  }
+}
+
+.dark-mode {
+  background-color: $dark-body-background;
+  color: $dark-color-text;
+
+  header,
+  footer {
+    background-color: $dark-header-footer-background;
+  }
+
+  .card {
+    background-color: $dark-card-background;
+
+    p {
+      color: $dark-color-text;
+    }
+  }
+
+  .card__title::after {
+    background-color: $dark-color-text;
+  }
+
+  a {
+    color: $color-text-light;
+  }
+}
+
+// Smooth Transitions
+body,
+.card,
+h1, h2, h3, h4,
+p, a, span {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

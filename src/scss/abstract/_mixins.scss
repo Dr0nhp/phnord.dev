@@ -1,4 +1,10 @@
+@use 'variables' as *;
+
 @mixin flex-center {
   display: flex;
   align-items: center;
+}
+
+@mixin border-radius {
+  border-radius: $border-radius;
 }

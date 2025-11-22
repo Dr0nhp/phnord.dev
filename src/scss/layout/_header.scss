@@ -2,15 +2,13 @@
 
 header {
   @include flex-center;
-  background-color: $header-background;
+  background-color: $header-footer-background;
   justify-content: space-between;
-  padding-inline: 1rem;
-  border-radius: 0.5rem;
-  margin-inline: 1rem;
+  padding: 1rem 2rem;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
 
-  ul {
-    @include flex-center;
-    list-style: none;
-    gap: 1rem;
+  nav {
+    flex: 1;
   }
 }

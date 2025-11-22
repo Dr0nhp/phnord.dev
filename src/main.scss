@@ -1,7 +1,20 @@
+// 1. Abstract (Variables, Mixins, Functions)
 @use 'scss/abstract/bundle' as *;
+
+// 2. Base (Resets, Typography, Base Elements)
 @use 'scss/base/base';
+@use 'scss/base/font';
+@use 'scss/base/paddings';
+
+// 3. Layout
 @use 'scss/layout/header';
+@use 'scss/layout/footer';
+@use 'scss/layout/navigation';
+
+// 4. Components
 @use 'scss/components/card';
-@use 'scss/abstract/font';
 @use 'scss/components/card-grid';
-@use 'scss/abstract/ascii-art';
+@use 'scss/components/dark-light';
+
+// 5. Utilities/Themes
+@use 'scss/utilities/helpers';

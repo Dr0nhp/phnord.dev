@@ -1,8 +1,57 @@
 <template>
   <header>
-    <div><a href="/">Phnord.dev</a></div>
-    <ul>
-      <li><a href="/about">About</a></li>
-    </ul>
+    <nav>
+      <ul>
+        <li>
+          <RouterLink
+            id="home"
+            to="/"
+          >
+            Phnord.dev
+          </RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/about">
+            About
+          </RouterLink>
+        </li>
+      </ul>
+    </nav>
+
+    <button
+      class="theme-toggle"
+      aria-label="Toggle dark mode"
+      @click="toggleTheme"
+    >
+      <span class="theme-toggle__icon">{{ isDark ? '☀️' : '🌙' }}</span>
+    </button>
   </header>
 </template>
+
+<script setup>
+import {ref, onMounted} from 'vue'
+
+const isDark = ref(false)
+
+// Load saved theme preference
+onMounted(() => {
+  const savedTheme = localStorage.getItem('theme')
+  if (savedTheme === 'dark') {
+    isDark.value = true
+    document.body.classList.add('dark-mode')
+  }S
+})
+
+// Toggle theme
+const toggleTheme = () => {
+  isDark.value = !isDark.value
+
+  if (isDark.value) {
+    document.body.classList.add('dark-mode')
+    localStorage.setItem('theme', 'dark')
+  } else {
+    document.body.classList.remove('dark-mode')
+    localStorage.setItem('theme', 'light')
+  }
+}
+</script>
