@@ -1,10 +1,32 @@
-$mocha-mousse: #A47864;
 $steel-blue: #3581b8ff;
 $shamrock-green: #399e5aff;
 $amaranth-purple: #aa1155ff;
-$bistre: #3f220fff;
 $smoky-black: #151010;
 $lavender-blush: #fcefefff;
-$header-background: $bistre;
-$body-background-color: $smoky-black;
-$font-color: $lavender-blush;
+$neutral-grey: #d3d3d3;
+$dark-grey: #0d0d0d;
+$light-grey: #1a1a1a;
+$medium-grey: #2a2a2a;
+
+// Light Mode (Default)
+$header-footer-background: $smoky-black;
+$body-background-color: #fff;
+$card-background: $neutral-grey;
+
+$color-title: $steel-blue;
+$color-highlight: $amaranth-purple;
+$color-interaction: $shamrock-green;
+$color-text: $smoky-black;
+$color-text-light: $lavender-blush;
+
+// Dark Mode Colors
+$dark-color-text: $lavender-blush;
+$dark-header-footer-background: $dark-grey;
+$dark-body-background: $light-grey;
+$dark-card-background: $medium-grey;
+
+
+$dark-color-text-muted: #b0b0b0;
+
+
+$border-radius: 0.5rem;

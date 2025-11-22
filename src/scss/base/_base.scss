@@ -12,6 +12,23 @@ body {
   margin: auto;
 }
 
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .page-content-wrapper {
+  flex-grow: 1;
   margin: 1rem;
+}
+
+header, footer {
+  color: $color-text-light;
+}
+
+ul {
+  @include flex-center;
+  list-style: none;
+  gap: 1rem;
 }

@@ -1,0 +1,9 @@
+@use '../abstract/bundle' as *;
+
+footer {
+  @include flex-center;
+  background-color: $header-footer-background;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+
+}
