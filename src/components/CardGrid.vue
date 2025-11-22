@@ -1,13 +1,13 @@
 <template>
   <div class="card-grid">
     <TestCard
-        v-for="(card, index) in displayedCards"
-        :key="card.id || index"
-        :title="card.title"
-        :description="card.description"
-        :link="card.link"
-        :linkText="card.linkText"
-        :external="card.external"
+      v-for="(card, index) in displayedCards"
+      :key="card.id || index"
+      :title="card.title"
+      :description="card.description"
+      :link="card.link"
+      :link-text="card.linkText"
+      :external="card.external"
     />
   </div>
 </template>

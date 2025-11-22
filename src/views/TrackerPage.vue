@@ -1,11 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
-
+  Tracker
 </template>
-
-<style scoped>
-
-</style>

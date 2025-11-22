@@ -1,12 +1,12 @@
 <template>
   <div id="homepage">
     <CardGrid
-        :cards="[
+      :cards="[
         { title: 'WOD PB Tracker',
-        description: 'Tracke deine Fortschritte bei WODs',
-        link: '/tracker',
-        linkText: 'Zum Tracker',
-        external: false}
+          description: 'Tracke deine Fortschritte bei WODs',
+          link: '/tracker',
+          linkText: 'Zum Tracker',
+          external: false}
       ]"
     />
   </div>

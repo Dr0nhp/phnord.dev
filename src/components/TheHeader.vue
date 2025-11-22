@@ -3,15 +3,26 @@
     <nav>
       <ul>
         <li>
-          <RouterLink to="/" id="home">Phnord.dev</RouterLink>
+          <RouterLink
+            id="home"
+            to="/"
+          >
+            Phnord.dev
+          </RouterLink>
         </li>
         <li>
-          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/about">
+            About
+          </RouterLink>
         </li>
       </ul>
     </nav>
 
-    <button class="theme-toggle" @click="toggleTheme" aria-label="Toggle dark mode">
+    <button
+      class="theme-toggle"
+      aria-label="Toggle dark mode"
+      @click="toggleTheme"
+    >
       <span class="theme-toggle__icon">{{ isDark ? '☀️' : '🌙' }}</span>
     </button>
   </header>
