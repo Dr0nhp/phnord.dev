@@ -5,6 +5,9 @@
         :key="card.id || index"
         :title="card.title"
         :description="card.description"
+        :link="card.link"
+        :linkText="card.linkText"
+        :external="card.external"
     />
   </div>
 </template>

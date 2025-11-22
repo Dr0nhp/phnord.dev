@@ -3,7 +3,7 @@
     <nav>
       <ul>
         <li>
-          <RouterLink to="/" id="home">Home</RouterLink>
+          <RouterLink to="/" id="home">Phnord.dev</RouterLink>
         </li>
         <li>
           <RouterLink to="/about">About</RouterLink>

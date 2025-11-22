@@ -2,11 +2,11 @@
   <div id="homepage">
     <CardGrid
         :cards="[
-        { title: 'WOD PB Tracker', description: 'Tracke deine Fortschritte bei WODs' },
-        { title: 'Title 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. 2' },
-        { title: 'Title 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. 3' },
-        { title: 'Title 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. 4' },
-        { title: 'Title 5', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. 5' }
+        { title: 'WOD PB Tracker',
+        description: 'Tracke deine Fortschritte bei WODs',
+        link: '/tracker',
+        linkText: 'Zum Tracker',
+        external: false}
       ]"
     />
   </div>
