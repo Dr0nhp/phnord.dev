@@ -1,11 +1,11 @@
 <template>
-    <TheHeader />
+  <TheHeader/>
 
-    <main class="page-content-wrapper">
-      <RouterView />
-    </main>
+  <main class="page-content-wrapper">
+    <RouterView/>
+  </main>
 
-    <TheFooter />
+  <TheFooter/>
 </template>
 
 <script setup>
