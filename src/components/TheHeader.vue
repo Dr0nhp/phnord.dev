@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import {ref, onMounted} from 'vue'
 
 const isDark = ref(false)
 
@@ -28,7 +28,7 @@ onMounted(() => {
   if (savedTheme === 'dark') {
     isDark.value = true
     document.body.classList.add('dark-mode')
-  }
+  }S
 })
 
 // Toggle theme
