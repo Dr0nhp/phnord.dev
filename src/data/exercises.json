@@ -1,0 +1,474 @@
+[
+  {
+    "id": 1,
+    "name": "AbMat Sit-up"
+  },
+  {
+    "id": 2,
+    "name": "Air Squat"
+  },
+  {
+    "id": 3,
+    "name": "Back Scale"
+  },
+  {
+    "id": 4,
+    "name": "Back Squat"
+  },
+  {
+    "id": 5,
+    "name": "Barbell Front-rack Lunge"
+  },
+  {
+    "id": 6,
+    "name": "Bench Press"
+  },
+  {
+    "id": 7,
+    "name": "Box Jump"
+  },
+  {
+    "id": 8,
+    "name": "Box Step-up"
+  },
+  {
+    "id": 9,
+    "name": "Burpee"
+  },
+  {
+    "id": 10,
+    "name": "Burpee Box Jump-over"
+  },
+  {
+    "id": 11,
+    "name": "Butterfly Pull-up"
+  },
+  {
+    "id": 12,
+    "name": "Chest-to-wall Handstand Push-up"
+  },
+  {
+    "id": 13,
+    "name": "Clean"
+  },
+  {
+    "id": 14,
+    "name": "Clean and Jerk"
+  },
+  {
+    "id": 15,
+    "name": "Clean and Push Jerk"
+  },
+  {
+    "id": 16,
+    "name": "Deadlift"
+  },
+  {
+    "id": 17,
+    "name": "Dip"
+  },
+  {
+    "id": 18,
+    "name": "Double-under"
+  },
+  {
+    "id": 19,
+    "name": "Dumbbell Clean"
+  },
+  {
+    "id": 20,
+    "name": "Dumbbell Deadlift"
+  },
+  {
+    "id": 21,
+    "name": "Dumbbell Farmers Carry"
+  },
+  {
+    "id": 22,
+    "name": "Dumbbell Front-rack Lunge"
+  },
+  {
+    "id": 23,
+    "name": "Dumbbell Front Squat"
+  },
+  {
+    "id": 24,
+    "name": "Dumbbell Hang Clean"
+  },
+  {
+    "id": 25,
+    "name": "Dumbbell Hang Power Clean"
+  },
+  {
+    "id": 26,
+    "name": "Dumbbell Overhead Squat"
+  },
+  {
+    "id": 27,
+    "name": "Dumbbell Overhead Walking Lunge"
+  },
+  {
+    "id": 28,
+    "name": "Dumbbell Power Clean"
+  },
+  {
+    "id": 29,
+    "name": "Dumbbell Power Snatch"
+  },
+  {
+    "id": 30,
+    "name": "Dumbbell Push Jerk"
+  },
+  {
+    "id": 31,
+    "name": "Dumbbell Push Press"
+  },
+  {
+    "id": 32,
+    "name": "Dumbbell Squat Snatch"
+  },
+  {
+    "id": 33,
+    "name": "Dumbbell Thruster"
+  },
+  {
+    "id": 34,
+    "name": "Dumbbell Turkish Get-up"
+  },
+  {
+    "id": 35,
+    "name": "Forward Roll From Support"
+  },
+  {
+    "id": 36,
+    "name": "Freestanding Handstand Push-up"
+  },
+  {
+    "id": 37,
+    "name": "Front Scale"
+  },
+  {
+    "id": 38,
+    "name": "Front Squat"
+  },
+  {
+    "id": 39,
+    "name": "GHD Back Extension"
+  },
+  {
+    "id": 40,
+    "name": "GHD Hip and Back Extension"
+  },
+  {
+    "id": 41,
+    "name": "GHD Hip, Back, and Hip-back Extension"
+  },
+  {
+    "id": 42,
+    "name": "GHD Hip Extension"
+  },
+  {
+    "id": 43,
+    "name": "GHD Sit-up"
+  },
+  {
+    "id": 44,
+    "name": "Glide Kip"
+  },
+  {
+    "id": 45,
+    "name": "Good Morning"
+  },
+  {
+    "id": 46,
+    "name": "Handstand"
+  },
+  {
+    "id": 47,
+    "name": "Handstand Pirouette"
+  },
+  {
+    "id": 48,
+    "name": "Handstand Push-up Variations"
+  },
+  {
+    "id": 49,
+    "name": "Handstand Walk"
+  },
+  {
+    "id": 50,
+    "name": "Hang Clean"
+  },
+  {
+    "id": 51,
+    "name": "Hang Clean and Push Jerk"
+  },
+  {
+    "id": 52,
+    "name": "Hanging L-sit"
+  },
+  {
+    "id": 53,
+    "name": "Hang Power Clean"
+  },
+  {
+    "id": 54,
+    "name": "Hang Power Snatch"
+  },
+  {
+    "id": 55,
+    "name": "Hang Snatch"
+  },
+  {
+    "id": 56,
+    "name": "Inverted Burpee"
+  },
+  {
+    "id": 57,
+    "name": "Kettlebell Snatch"
+  },
+  {
+    "id": 58,
+    "name": "Kettlebell Swing"
+  },
+  {
+    "id": 59,
+    "name": "Kipping Bar Muscle-up"
+  },
+  {
+    "id": 60,
+    "name": "Kipping Chest-to-bar Pull-up"
+  },
+  {
+    "id": 61,
+    "name": "Kipping Deficit Handstand Push-up"
+  },
+  {
+    "id": 62,
+    "name": "Kipping Handstand Push-up"
+  },
+  {
+    "id": 63,
+    "name": "Kipping Muscle-up"
+  },
+  {
+    "id": 64,
+    "name": "Kipping Pull-up"
+  },
+  {
+    "id": 65,
+    "name": "Kipping Toes-to-bar"
+  },
+  {
+    "id": 66,
+    "name": "Legless Rope Climb"
+  },
+  {
+    "id": 67,
+    "name": "L Pull-up"
+  },
+  {
+    "id": 68,
+    "name": "L-sit"
+  },
+  {
+    "id": 69,
+    "name": "L-sit on Rings"
+  },
+  {
+    "id": 70,
+    "name": "L-sit Rope Climb"
+  },
+  {
+    "id": 71,
+    "name": "L-sit to Shoulder Stand"
+  },
+  {
+    "id": 72,
+    "name": "Medicine-ball Clean"
+  },
+  {
+    "id": 73,
+    "name": "Modified Rope Climb"
+  },
+  {
+    "id": 74,
+    "name": "Muscle Snatch"
+  },
+  {
+    "id": 75,
+    "name": "Overhead Squat"
+  },
+  {
+    "id": 76,
+    "name": "Power Clean"
+  },
+  {
+    "id": 77,
+    "name": "Power Clean and Split Jerk"
+  },
+  {
+    "id": 78,
+    "name": "Power Snatch"
+  },
+  {
+    "id": 79,
+    "name": "Pull-over"
+  },
+  {
+    "id": 80,
+    "name": "Push Jerk"
+  },
+  {
+    "id": 81,
+    "name": "Push Press"
+  },
+  {
+    "id": 82,
+    "name": "Push-up"
+  },
+  {
+    "id": 83,
+    "name": "Ring Dip"
+  },
+  {
+    "id": 84,
+    "name": "Ring Push-up"
+  },
+  {
+    "id": 85,
+    "name": "Ring Row"
+  },
+  {
+    "id": 86,
+    "name": "Rope Climb (Basket)"
+  },
+  {
+    "id": 87,
+    "name": "Rope Climb (Wrapping)"
+  },
+  {
+    "id": 88,
+    "name": "Row"
+  },
+  {
+    "id": 89,
+    "name": "Shoot-through"
+  },
+  {
+    "id": 90,
+    "name": "Shoulder Press"
+  },
+  {
+    "id": 91,
+    "name": "Single-leg Squat (Pistol)"
+  },
+  {
+    "id": 92,
+    "name": "Single-under"
+  },
+  {
+    "id": 93,
+    "name": "Skin Cat"
+  },
+  {
+    "id": 94,
+    "name": "Slam Ball"
+  },
+  {
+    "id": 95,
+    "name": "Snatch"
+  },
+  {
+    "id": 96,
+    "name": "Snatch Balance"
+  },
+  {
+    "id": 97,
+    "name": "Sots Press"
+  },
+  {
+    "id": 98,
+    "name": "Split Clean"
+  },
+  {
+    "id": 99,
+    "name": "Split Jerk"
+  },
+  {
+    "id": 100,
+    "name": "Split Snatch"
+  },
+  {
+    "id": 101,
+    "name": "Straddle Press to Handstand"
+  },
+  {
+    "id": 102,
+    "name": "Strict Bar Muscle-up"
+  },
+  {
+    "id": 103,
+    "name": "Strict Chest-to-bar Pull-up"
+  },
+  {
+    "id": 104,
+    "name": "Strict Handstand Push-up"
+  },
+  {
+    "id": 105,
+    "name": "Strict Knees-to-elbows"
+  },
+  {
+    "id": 106,
+    "name": "Strict Muscle-up"
+  },
+  {
+    "id": 107,
+    "name": "Strict Pull-up"
+  },
+  {
+    "id": 108,
+    "name": "Strict Toes-to-bar"
+  },
+  {
+    "id": 109,
+    "name": "Strict Toes-to-rings"
+  },
+  {
+    "id": 110,
+    "name": "Sumo Deadlift"
+  },
+  {
+    "id": 111,
+    "name": "Sumo Deadlift High Pull"
+  },
+  {
+    "id": 112,
+    "name": "Swing to Backward Roll to Support"
+  },
+  {
+    "id": 113,
+    "name": "Thruster"
+  },
+  {
+    "id": 114,
+    "name": "Walking Lunge"
+  },
+  {
+    "id": 115,
+    "name": "Wall-ball Shot"
+  },
+  {
+    "id": 116,
+    "name": "Wall Walk"
+  },
+  {
+    "id": 117,
+    "name": "Windshield Wiper"
+  },
+  {
+    "id": 118,
+    "name": "Zercher Squat"
+  }
+]

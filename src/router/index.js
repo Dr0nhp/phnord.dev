@@ -3,6 +3,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import TrackerPage from '../views/TrackerPage.vue'
+import CraftingCalcPage from '../views/CraftingCalcPage.vue'
 
 const routes = [
     {
@@ -19,6 +20,11 @@ const routes = [
         path: '/tracker',
         name: 'Tracker',
         component: TrackerPage
+    },
+    {
+        path: '/crafting-calc',
+        name: 'CraftingCalc',
+        component: CraftingCalcPage
     }
 ]
 

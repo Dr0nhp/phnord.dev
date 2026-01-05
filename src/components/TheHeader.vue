@@ -39,7 +39,7 @@ onMounted(() => {
   if (savedTheme === 'dark') {
     isDark.value = true
     document.body.classList.add('dark-mode')
-  }S
+  }
 })
 
 // Toggle theme
