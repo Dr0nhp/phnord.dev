@@ -70,11 +70,14 @@ jobs:
           cd ffxivCraftingMatCalc
           npm run build
           cd ..
-          mkdir -p public/ffxivCraftingMatCalc
-          cp -r ffxivCraftingMatCalc/dist/* public/ffxivCraftingMatCalc/
 
       - name: Build with Vite
         run: npm run build
+
+      - name: Copy ffxivCraftingMatCalc to dist
+        run: |
+          mkdir -p dist/ffxivCraftingMatCalc
+          cp -r ffxivCraftingMatCalc/dist/* dist/ffxivCraftingMatCalc/
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
