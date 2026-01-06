@@ -65,6 +65,12 @@ jobs:
           npm ci
           cd ..
 
+      - name: Build ffxivCraftingMatCalc
+        run: |
+          cd ffxivCraftingMatCalc
+          npm run build
+          cd ..
+
       - name: Build with Vite
         run: npm run build
 
