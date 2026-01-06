@@ -22,9 +22,12 @@ const isFullPageRoute = computed(() => {
 })
 </script>
 
-<style scoped>
+<style>
 .page-content-wrapper.full-page {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 </style>
